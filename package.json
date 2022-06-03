@@ -1,0 +1,23 @@
+{
+  "name": "roshteinsite",
+  "version": "1.0.0",
+  "description": "un paquete de sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pato-1441/roshteinSite.git"
+  },
+  "author": "Patricio Albornoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pato-1441/roshteinSite/issues"
+  },
+  "homepage": "https://github.com/pato-1441/roshteinSite#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
