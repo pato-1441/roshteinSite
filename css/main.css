@@ -1,8 +1,14 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: 'Mukta', sans-serif; }
 
 .logorosh {
   height: 50px; }
+
+.navColor {
+  background-color: #fff; }
 
 .carousel-inner {
   height: 50vh; }
@@ -19,8 +25,8 @@
   height: 2.5rem;
   width: 3.5rem; }
 
-.navColor {
-  background-color: #fff; }
+.footerColor {
+  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 
 .aifreims {
   width: 100%;
@@ -32,9 +38,6 @@
 .aifreims-videos {
   width: 100%;
   height: 100%; }
-
-.footerColor {
-  background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
 
 .black-purpleColorText {
   color: #000; }

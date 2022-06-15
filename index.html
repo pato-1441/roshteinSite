@@ -1,208 +1,262 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Roshtein</title>
-    <link rel="shortcut icon" href="./assets/logo-roshtein.svg" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/main.css">
-  </head>
-  <body class="d-flex flex-column min-vh-100">
-    <!--Nav-->
-    <header>
-      <nav class="navbar navbar-expand-lg navColor">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html"><img class="logorosh" src="./assets/logo-roshtein.svg" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav align-items-center">
-              <li class="nav-item">
-                <a class="nav-link black-purpleColorText" href="./pages/stream.html">Stream</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link black-purpleColorText" href="./pages/slots.html">Slots</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link black-purpleColorText" aria-current="page" href="./pages/videos.html">Videos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link black-purpleColorText" href="./pages/contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <!--Carrousel con fotos rosh-->
-      <section class="container-fluid p-0">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/logo-roshtein.svg" class="d-block w-100 crrimg" id="crrimg1" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/crr2.jpg" class="d-block w-100 crrimg" alt="...">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/crr3.jpg" class="d-block w-100 crrimg" alt="...">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-      </section>
 
-      <!--mini galeria con cards-->
-      <section class="container cards p-5 pb-0">
-        <h4>About Roshtein</h4>
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-          <div class="col">
-            <div class="card">
-              <img src="https://roshtein.com/about/ab-1.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">It was 2016 and the casino streaming scene on Twitch was a cosy and intimate space for all the fans of video slots. There were only a couple of casino streamers (now legends that are still actively streaming) who welcomed me with open arms and encouraged me to pursue my passion.<br>
-                  Not gonna lie, it was like shooting in the dark. There was no certain, secure way of doing this that would guarantee success. All I knew was - I love playing slots and maybe, just MAYBE, this might work out. It wasn't always easy but with the casino streaming community on my side supporting me, I dived into the world of casino streaming and never looked back. After all, what's the worst thing that could happen?! I could fail but then again - I'm a gambler and RISK is part of my gameplay! So, I took my shot and hoped for the best.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://roshtein.com/about/ab-2.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">I love spending my time streaming slots and chatting with people from all over the world who join me every single day. My hard work, passion, and dedication are rewarded with loyal followers and unforgettable streaming moments. No one ever said that being a successful streamer is easy work but it pays off in more ways than one.
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta keywords="roshtein, slots, casino, twitch, streamer">
+  <title>Roshtein | Home</title>
+  <link rel="shortcut icon" href="./assets/logo-roshtein.svg" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
+</head>
 
-                  Having the support of the dedicated community means a lot. So, I try to get back to my Twitch followers in all the ways I can and reward their loyalty. Usually, that gratitude is expressed through my daily on-stream raffles and from time to time there are massive giveaways with thrilling prizes.</p>
-              </div>
-            </div>
+<body class="d-flex flex-column min-vh-100">
+  <!--Nav-->
+  <header>
+    <nav class="navbar navbar-expand-lg navColor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img class="logorosh" src="./assets/logo-roshtein.svg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav align-items-center">
+            <li class="nav-item">
+              <a class="nav-link black-purpleColorText" href="./pages/stream.html">Stream</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link black-purpleColorText" href="./pages/slots.html">Slots</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link black-purpleColorText" aria-current="page" href="./pages/videos.html">Videos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link black-purpleColorText" href="./pages/contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!--Carrousel con fotos rosh-->
+    <section class="container-fluid p-0">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./assets/logo-roshtein.svg" class="d-block w-100 crrimg" id="crrimg1" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://roshtein.com/about/ab-6.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">I was still living back in Sweden when I started streaming playing slots. During the first year of streaming, my studio was my bedroom. I love going back to those videos from time to time, they always bring a smile to my face. There is a certain innocence about them and the question “Who would have thought?!” starts ringing in my head.</p>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <img src="./assets/crr2.jpg" class="d-block w-100 crrimg" alt="...">
           </div>
-          <div class="col">
-            <div class="card">
-              <img src="https://roshtein.com/about/ab-4.webp" class="card-img-top" alt="...">
-              <div class="card-body">
-                <p class="card-text">People in the community are what made this journey fun and I'm eternally grateful for each and every single one of them! They were there for the record breaking wins, sharing my happiness and celebrating with me, but they were also there during those darker moments when I was taking serious balance hits, suffering one loss after another.</p>
-              </div>
-            </div>
+          <div class="carousel-item">
+            <img src="./assets/crr3.jpg" class="d-block w-100 crrimg" alt="...">
           </div>
         </div>
-      </section>
-      <!--Terminan cards-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
 
-      <!--FAQs-->      
-      <section class="container p-5">
-        <h4 class="mb-2">FAQ</h4>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <!--accordion item-->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
-                What is Roshtein's streaming schedule?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                Roshtein streams pretty much everyday. He is the hardest working casino streamer on Twitch and he rarely takes a day off or a vacation. To stay in the loop and be notified about the exact time of the upcoming daily streams, it's best to follow him on Twitter or Instagram.
-              </div>
-            </div>
-          </div>
-          <!--termina accordion item1-->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                How do I earn points?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-              <div class="accordion-body">
-                Earning points is easy. All you have to do is follow Roshtein on Twitch and watch his daily streams. Following him will get you 100 points while every 10 minutes of watching his stream automatically adds 1 point to your account.
-              </div>
-            </div>
-          </div>
-          <!--termina accordion item2-->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                How do I claim a casino offer?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-              <div class="accordion-body">
-                To claim a casino bonus offer, go to the Casino page and check out the best offers Roshtein has prepared for you. All you have to do is click the Claim button and you'll be redirected to the casino of your choice. Don't forget to check the casino info and read T&C!
-              </div>
-            </div>
-          </div>
-          <!--termina accordion item3-->
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                How to redeem items from the store?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-              <div class="accordion-body">
-                It's very simple. Just go to the Store, find an item you want (offer, merchandise, transfer points, etc.), and click on a link provided. You will be redirected to StreamElements where you can claim your chosen item. Just like that!
-              </div>
-            </div>
-          </div>
-          <!--termina accordion item4-->
-        </div>
-      </section>   
-    </main>
-      <footer class="mt-auto">
-        <div class="container-fluid text-white footerColor">
-          <div class="row">
-            <div class="d-flex flex-column align-items-center col-4 p-5">
-              <p>Social Media<p/>
-                <div class="d-flex flex-column">
-                  <a class="text-decoration-none text-white" href="https://instagram.com">Instagram</a>
-                  <a class="text-decoration-none text-white pt-3" href="https://twitter.com">Twitter</a>
-                  <a class="text-decoration-none text-white pt-3" href="https://youtube.com/">Youtube</a>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center col-4 p-5">
-              <div class="d-flex flex-column align-content-center align-items-center"><p>Sponsors</p>
-                <div class="d-flex flex-row row">
-                  <img class="col-4 sp-imgs" src="./assets/gc.png" alt="">
-                  <img class="col-4" id="sp-imgs-fire" src="./assets/redfire.png" alt="">
-                  <img class="col-4 sp-imgs" src="./assets/estrella.png" alt="">
-                </div>
-              </div>
-            </div>
-            <div class="d-flex flex-column align-items-center col-4 p-5">
-              <p>Contact<p/>
-                <div class="d-flex flex-column">
-                  <a class="text-decoration-none text-white" href="https://google.com">E-mail</a>
-                </div>
+    <!--mini galeria con cards-->
+    <section class="container cards p-5 pb-0">
+      <h4>About Roshtein</h4>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="https://roshtein.com/about/ab-1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">It was 2016 and the casino streaming scene on Twitch was a cosy and intimate space
+                for all the fans of video slots. There were only a couple of casino streamers (now legends that are
+                still actively streaming) who welcomed me with open arms and encouraged me to pursue my passion.<br>
+                Not gonna lie, it was like shooting in the dark. There was no certain, secure way of doing this that
+                would guarantee success. All I knew was - I love playing slots and maybe, just MAYBE, this might work
+                out. It wasn't always easy but with the casino streaming community on my side supporting me, I dived
+                into the world of casino streaming and never looked back. After all, what's the worst thing that could
+                happen?! I could fail but then again - I'm a gambler and RISK is part of my gameplay! So, I took my shot
+                and hoped for the best.</p>
             </div>
           </div>
         </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-  </body>
+        <div class="col">
+          <div class="card">
+            <img src="https://roshtein.com/about/ab-2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">I love spending my time streaming slots and chatting with people from all over the
+                world who join me every single day. My hard work, passion, and dedication are rewarded with loyal
+                followers and unforgettable streaming moments. No one ever said that being a successful streamer is easy
+                work but it pays off in more ways than one.
+
+                Having the support of the dedicated community means a lot. So, I try to get back to my Twitch followers
+                in all the ways I can and reward their loyalty. Usually, that gratitude is expressed through my daily
+                on-stream raffles and from time to time there are massive giveaways with thrilling prizes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://roshtein.com/about/ab-6.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">I was still living back in Sweden when I started streaming playing slots. During the
+                first year of streaming, my studio was my bedroom. I love going back to those videos from time to time,
+                they always bring a smile to my face. There is a certain innocence about them and the question “Who
+                would have thought?!” starts ringing in my head.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://roshtein.com/about/ab-4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p class="card-text">People in the community are what made this journey fun and I'm eternally grateful for
+                each and every single one of them! They were there for the record breaking wins, sharing my happiness
+                and celebrating with me, but they were also there during those darker moments when I was taking serious
+                balance hits, suffering one loss after another.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Terminan cards-->
+
+    <!--FAQs-->
+    <section class="container p-5">
+      <h4 class="mb-2">FAQ</h4>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <!--accordion item-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseOne">
+              What is Roshtein's streaming schedule?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              Roshtein streams pretty much everyday. He is the hardest working casino streamer on Twitch and he rarely
+              takes a day off or a vacation. To stay in the loop and be notified about the exact time of the upcoming
+              daily streams, it's best to follow him on Twitter or Instagram.
+            </div>
+          </div>
+        </div>
+        <!--termina accordion item1-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseTwo">
+              How do I earn points?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              Earning points is easy. All you have to do is follow Roshtein on Twitch and watch his daily streams.
+              Following him will get you 100 points while every 10 minutes of watching his stream automatically adds 1
+              point to your account.
+            </div>
+          </div>
+        </div>
+        <!--termina accordion item2-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseThree">
+              How do I claim a casino offer?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              To claim a casino bonus offer, go to the Casino page and check out the best offers Roshtein has prepared
+              for you. All you have to do is click the Claim button and you'll be redirected to the casino of your
+              choice. Don't forget to check the casino info and read T&C!
+            </div>
+          </div>
+        </div>
+        <!--termina accordion item3-->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+              aria-controls="panelsStayOpen-collapseFour">
+              How to redeem items from the store?
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+            aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+              It's very simple. Just go to the Store, find an item you want (offer, merchandise, transfer points, etc.),
+              and click on a link provided. You will be redirected to StreamElements where you can claim your chosen
+              item. Just like that!
+            </div>
+          </div>
+        </div>
+        <!--termina accordion item4-->
+      </div>
+    </section>
+  </main>
+  <footer class="mt-auto">
+    <div class="container-fluid text-white bg-dark">
+      <div class="row">
+        <div class="d-flex flex-column align-items-center col-4 p-5">
+          <p>Social Media
+            <p />
+            <div class="d-flex flex-column">
+              <a class="text-decoration-none text-white" href="https://instagram.com">Instagram</a>
+              <a class="text-decoration-none text-white pt-3" href="https://twitter.com">Twitter</a>
+              <a class="text-decoration-none text-white pt-3" href="https://youtube.com/">Youtube</a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center col-4 p-5">
+          <div class="d-flex flex-column align-content-center align-items-center">
+            <p>Sponsors</p>
+            <div class="d-flex flex-row row">
+              <img class="col-4 sp-imgs" src="./assets/gc.png" alt="">
+              <img class="col-4" id="sp-imgs-fire" src="./assets/redfire.png" alt="">
+              <img class="col-4 sp-imgs" src="./assets/estrella.png" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-column align-items-center col-4 p-5">
+          <p>Contact
+            <p />
+            <div class="d-flex flex-column">
+              <a class="text-decoration-none text-white" href="https://google.com">E-mail</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+  </script>
+</body>
+
 </html>

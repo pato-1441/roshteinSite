@@ -1,60 +1,16 @@
-*{
-    font-family: 'Mukta', sans-serif;
-}
+@import "./reset";
+@import "./nav";
+@import "./carrousel";
+@import "./footer";
+@import "./videos";
 
 $black-color: #000;
 $purple-color: #667eea;
 
-.logorosh{
-    height: 50px;
-}
-
-.carousel-inner{
-    height: 50vh;
-
-}
-
-.crrimg{
-    height: 60vh;
-    object-fit: cover;
-}
-
-.sp-imgs{
-    height: 2.5rem;
-    width: 4rem;
-}
-
-#sp-imgs-fire{
-    height: 2.5rem;
-    width: 3.5rem;
-}
-
-.navColor{
-    background-color: #fff;
-}
-
-.aifreims{
-    width: 100%;
-    height: 50vh;
-}
-
-
-.videos__container{
-    height: 50vh;
-}
-
-.aifreims-videos{
-    width: 100%;
-    height: 100%;
-}
-
-.footerColor{
-    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-}
-
-.black-purpleColorText{
+.black-purpleColorText {
     color: $black-color;
-    &:hover{
+
+    &:hover {
         color: $purple-color;
     }
 }
