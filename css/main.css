@@ -4,6 +4,48 @@
   box-sizing: border-box;
   font-family: 'Mukta', sans-serif; }
 
+.fontSizeSmall {
+  font-size: 1rem;
+  font-weight: 300; }
+
+.fontSizeMedium {
+  font-size: 1.5rem;
+  font-weight: 500; }
+
+.fontSizeBig {
+  font-size: 1.75rem;
+  font-weight: 700; }
+
+.redInstagram {
+  color: #ff00bf; }
+  .redInstagram:hover {
+    color: white; }
+
+.redTwitter {
+  color: #00e7e7; }
+  .redTwitter:hover {
+    color: white; }
+
+.redYoutube {
+  color: red; }
+  .redYoutube:hover {
+    color: white; }
+
+.boton, .botonRed, .botonYellow {
+  background-color: #5a5a5a;
+  color: white;
+  box-shadow: 1px solid gray;
+  text-align: center;
+  border-radius: 15px; }
+
+.botonRed {
+  background-color: #f80000;
+  color: white; }
+
+.botonYellow {
+  background-color: #f8df00;
+  color: black; }
+
 .logorosh {
   height: 50px; }
 

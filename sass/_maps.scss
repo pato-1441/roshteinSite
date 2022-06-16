@@ -1,0 +1,26 @@
+$redes: (
+    "Instagram": rgb(255, 0, 191),
+    "Twitter": rgb(0, 231, 231),
+    "Youtube": rgb(255, 0, 0),
+);
+
+.redInstagram{
+    color: map-get($redes, Instagram);
+    &:hover{
+        color: white;
+    }
+}
+
+.redTwitter{
+    color: map-get($redes, Twitter);
+    &:hover{
+        color: white;
+    }
+}
+
+.redYoutube{
+    color: map-get($redes, Youtube);
+    &:hover{
+        color: white;
+    }
+}
