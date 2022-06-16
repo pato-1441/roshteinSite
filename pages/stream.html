@@ -35,7 +35,8 @@
               <a class="nav-link black-purpleColorText" href="./slots.html" rel="noopener noreferrer">Slots</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link black-purpleColorText" aria-current="page" href="./videos.html" rel="noopener noreferrer">Videos</a>
+              <a class="nav-link black-purpleColorText" aria-current="page" href="./videos.html"
+                rel="noopener noreferrer">Videos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link black-purpleColorText" href="./contact.html" rel="noopener noreferrer">Contact</a>
@@ -47,33 +48,38 @@
   </header>
   <main>
     <!--Arranca Iframe Twitch-->
-    <div class="container d-flex flex-column justify-content-center">
-      <div class="row">
-        <p class="pt-5 fw-semibold fs-3">Enjoy Roshtein's show here!</p>
+    <section class="iframetwitch">
+      <div class="container d-flex flex-column justify-content-center">
+        <div class="row">
+          <h1 class="pt-5 fw-semibold fs-3">Enjoy Roshtein's show here!</h1>
+        </div>
+        <div class="row pb-5">
+          <iframe class="aifreims"
+            src="https://player.twitch.tv/?channel=roshtein&parent=https://pato-1441.github.io/roshteinSite/pages/stream.html"
+            frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
+        </div>
       </div>
-      <div class="row pb-5">
-        <iframe class="aifreims"
-          src="https://player.twitch.tv/?channel=roshtein&parent=https://pato-1441.github.io/roshteinSite/pages/stream.html"
-          frameborder="0" allowfullscreen="true" scrolling="no"></iframe>
-      </div>
-    </div>
+    </section>
     <!--Iframe Twitch-->
   </main>
   <footer class="mt-auto">
-    <div class="container-fluid text-white footerColor">
+    <div class="container-fluid text-white bg-dark">
       <div class="row">
         <div class="d-flex flex-column align-items-center col-4 p-5">
-          <p>Social Media
+          <p class="fontSizeMedium">Social Media
             <p />
-            <div class="d-flex flex-column">
-              <a class="text-decoration-none text-white" href="https://instagram.com" rel="noopener noreferrer">Instagram</a>
-              <a class="text-decoration-none text-white pt-3" href="https://twitter.com" rel="noopener noreferrer">Twitter</a>
-              <a class="text-decoration-none text-white pt-3" href="https://youtube.com/" rel="noopener noreferrer">Youtube</a>
+            <div class="d-flex flex-column fontSizeSmall">
+              <a class="text-decoration-none redInstagram" href="https://instagram.com"
+                rel="noopener noreferrer">Instagram</a>
+              <a class="text-decoration-none redTwitter pt-3" href="https://twitter.com"
+                rel="noopener noreferrer">Twitter</a>
+              <a class="text-decoration-none redYoutube pt-3" href="https://youtube.com/"
+                rel="noopener noreferrer">Youtube</a>
             </div>
         </div>
         <div class="d-flex justify-content-center col-4 p-5">
           <div class="d-flex flex-column align-content-center align-items-center">
-            <p>Sponsors</p>
+            <p class="fontSizeMedium">Sponsors</p>
             <div class="d-flex flex-row row">
               <img class="col-4 sp-imgs" src="../assets/gc.png" alt="">
               <img class="col-4" id="sp-imgs-fire" src="../assets/redfire.png" alt="">
@@ -82,7 +88,7 @@
           </div>
         </div>
         <div class="d-flex flex-column align-items-center col-4 p-5">
-          <p>Contact
+          <p class="fontSizeMedium">Contact
             <p />
             <div class="d-flex flex-column">
               <a class="text-decoration-none text-white" href="https://google.com" rel="noopener noreferrer">E-mail</a>
